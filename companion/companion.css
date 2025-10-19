@@ -8,13 +8,12 @@
     src: url(assets/BLENDERPRO-BOLD.TTF) format('truetype')
 }
 
-* {
-    margin: 1;
+*{
+    color: white;
 }
 
 h1 {
     font-family: Orbitron;
-    color: white;
     font-weight: 100;
     margin-top: 0px;
 }
@@ -23,13 +22,14 @@ h1 {
     background-color: black;
     background-image:
         url(Rectangle\ 1\ copy\ 1.png);
-    margin-left: 71px;
+    background-size: cover;
 }
 
 .header {
-    margin-left: 20px;
-    color: white;
-    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0 30px 70px;
 }
 
 .header>div {
@@ -106,15 +106,17 @@ h1 {
 .box1 {
     display: flex;
     font-family: Orbitron;
-    justify-content: space-between;
-    width: 770px;
-    margin-left: 240px;
-    margin-bottom: -55px;
+    justify-content: center;  
+    align-items: center;
+    gap: 221px;
+    margin-right: 240px;
+    margin-bottom: -50px;
+    margin-top: -55px;
 }
 
 .title2 {
     font-family: Orbitron;
-    margin-top: -20px;
+    margin-top: -25px;
     margin-left: 30px;
     margin-bottom: -40px;
     color: gray;
@@ -133,11 +135,10 @@ h1 {
 .arrow {
     width: 40px;
     height: 40px;
+    margin-top: 100px;
     background-color: transparent;
-    color: white;
     border-color: azure;
     cursor: pointer;
-
 }
 
 .arrows-and-card {
@@ -146,15 +147,15 @@ h1 {
     margin-left: 145px;
     margin-top: -40px;
     gap: 40px;
-
 }
 
 .char {
     background-color: green;
     font-family: Orbitron;
     width: 125px;
-    border-bottom-right-radius: 330%;
-    border-top-right-radius: 330%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 3px;
 }
 
 .turtle-text {
@@ -165,9 +166,7 @@ h1 {
 }
 
 .comp-text {
-    margin-left: 100px;
-    margin-bottom: 120px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .text {
@@ -182,12 +181,13 @@ h1 {
     background-color: #31FF77;
     font-family: Orbitron;
     border-color: #31FF77;
-    font-size: 12px;
     cursor: pointer;
 }
-.all{
-    display: block;
+
+.choosing {
+    margin: -150px 200px;
 }
-.choosing{
-    margin: -120px 200px;
+
+.ss{
+    margin-bottom: 35px;
 }

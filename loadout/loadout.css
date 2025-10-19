@@ -223,7 +223,6 @@ button:hover{
 }
 .popup:target {
     display: flex;
-
 }
 .out{
     margin-top: 30px;
